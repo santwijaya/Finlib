@@ -1,0 +1,107 @@
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url("../lib/pattern.png");
+	background-repeat: repeat;
+}
+
+.nav{
+	display: inline-block;
+	font-family: Century Gothic;
+	font-size: 15px;
+	padding: 10px;
+	color:rgba(170, 175, 175,1);
+	text-align: center;
+	z-index: 999;
+}
+
+
+.nav:hover{
+	display: inline-block;
+	font-family: Century Gothic;
+	font-size: 15px;
+	padding: 10px;
+	color:rgba(255,255,255,1);
+	text-align: center;
+	z-index: 999;
+	-webkit-transition:color .15s ease-in;
+}
+
+#header{
+	position: fixed;
+	background: #334143;
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	opacity: 0.9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	z-index: 999;
+}
+
+#putih{
+	background: url("../lib/pattern.png");
+	height: 130px;
+	z-index: 3;
+}
+
+#halaman{
+	margin: 30px;
+	margin-left: 190px;
+	margin-right: 190px;
+	z-index: 3;
+	background:rgba(255,255,255,1);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#kotak{
+	background: rgba(51, 67, 70,1);
+	padding: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#konten{
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 160px 250px 100px;
+	grid-gap:10px;
+	z-index: 3;
+	padding-left: 30px;
+	padding-right: 70px;
+}
+
+.kotak2{
+	margin:20px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	z-index: 3;
+	background:rgba(255,255,255,1);
+	color: rgba(51, 67, 70,1);
+	font-family: Century Gothic;
+	font-size: 13pt;
+	border: solid 1px rgba(51, 67, 70,1);
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	text-align: left;
+	vertical-align: middle;
+}
+
+.kotak2>#gambar{
+	text-align: right;
+	vertical-align: middle;
+	display: block;
+}
