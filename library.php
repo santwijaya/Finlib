@@ -3,7 +3,7 @@
 <head>
 	<title>Find Library : Temukan Perpustakaan di Sekitar</title>
 	<link rel="stylesheet" type="text/css" href="styles/library.css">
-	<script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBqsdxTz26OMSuEUaJTC5Yf0rWCjiJgg_Q&callback=initMap&sensor=true" async defer type="text/javascript" ></script>
+	<script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ5CcRJsDLxN_-3uUwD0xg1Dzy9WDffG8&callback=initMap&sensor=true" async defer type="text/javascript" ></script>
 	<script type="text/javascript">
 	var map;
 	//ini fungsi untuk meload map - done
@@ -38,7 +38,7 @@
 			lat = ".$baris['latitude'].";
 			lng = ".$baris['longitude'].";
 			latlng = new google.maps.LatLng(lat,lng);
-			var image = 'http://167.205.67.249:8000/18214028/Progrif/raw/c901d32886848d1f21e66ba9ce5c8d780856d7f8/icon.png';
+			var image = 'icon.png';
 			
 
 			marker = new google.maps.Marker({
